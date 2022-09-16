@@ -1,5 +1,4 @@
 window.console.log("Ho fatto il c***o di caffè");
-document.write("Ho fatto il caffè" + br);
 var Tazzina = 0;
 let Nuovatazzina = 0;
 const Caffe = 23; // questo è un bel commento simpatico 
@@ -10,6 +9,8 @@ let cipolla = 0.989;
 let banane = 'Gianni';
 let zucchero = true;
 const br = "<br>";
+
+document.write("Ho fatto il caffè" + br);
 
 if (cipolla > 2) {
     zucchero = false;
@@ -31,9 +32,36 @@ while (lattuga < 102 ) {
 document.write(cipolla + br);
 
 let aglio = 1 + 3;
+let pomodoro = 2; 
+let peperone = 3;
 
-let melanzana = prompt("Scrivi qui");
+document.write(pomodoro ** peperone + br);
+document.write(br + br+ br+ br);
 
-document.write(melanzana + br);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
