@@ -9,11 +9,9 @@ for (let i=0; i<100; i++) {
 
 document.write(br + br +br +br);
 
+document.write("Inizia da QUI" + br);
+
 let Numero= prompt("Scrivi il numero di facce del dado");
-
-let tipo = typeof Numero;
-
-document.write(tipo + br);
 
 
 if (Numero > 0) {
